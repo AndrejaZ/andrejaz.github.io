@@ -95,6 +95,13 @@ body{
 .noScroll{
     pointer-events:none;
 }
+
+.opis{
+    text-align: center;
+    margin:auto;
+    width:60%;
+    padding-bottom: 50px;
+}
 /*Kraj globalnih promenljivih*/
 
 
