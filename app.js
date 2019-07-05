@@ -1,24 +1,3 @@
-$("p").on("click", function(){
-$(this).hide();
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $(".btnPortfolio").click(function() {
     event.preventDefault();
     $('html,body').animate({
