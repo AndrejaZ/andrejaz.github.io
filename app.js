@@ -1,3 +1,24 @@
+$("p").on("click", function(){
+$(this).hide();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(".btnPortfolio").click(function() {
     event.preventDefault();
     $('html,body').animate({
@@ -129,7 +150,9 @@ $("#menu-x").bind('click', function(){
     $(".side-menu").removeClass("side-menu-slideIn");
 });
 
-
+$("#spinner").bind("keydown", function (event) {
+    event.preventDefault();
+});
 
 
 
