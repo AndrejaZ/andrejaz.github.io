@@ -87,30 +87,30 @@ $(function(){
         let img4 = document.querySelector('.toggleImage4');
         let img5 = document.querySelector('.toggleImage5');
         if(value < 10){
-            console.log("manje od 10");
+            
             img1.style.display="block";
             img2.style.display="none";
         }
         if((value >= 10) && (value <= 25)){
-            console.log("izmendju 10 i 25");
+            
             img1.style.display="none";
             img2.style.display="block";
             img3.style.display="none";
         }
         if((value >= 25) && (value <= 65)){
-            console.log("izmendju 25 i 65");
+           
             img2.style.display="none";
             img3.style.display="block";
             img4.style.display="none";
         }
         if((value >= 65) && (value <= 110)){
-            console.log("izmendju 65 i 110");
+            
             img3.style.display="none";
             img4.style.display="block";
             img5.style.display="none";
         }
         if((value >= 110) && (value <= 200)){
-            console.log("izmendju vanpira");
+           
             img4.style.display="none";
             img5.style.display="block";
             img1.style.display="none";
